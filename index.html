@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aya's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #111;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px;
+      background: #1e1e1e;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    p {
+      color: #ccc;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background: #222;
+      padding: 20px;
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    a {
+      color: #4da6ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aya's Portfolio</h1>
+    <p>My projects, experiments, and creations</p>
+  </header>
+
+  <section class="projects">
+    <div class="card">
+      <h2>Project 1</h2>
+      <p>Description of your first project.</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="card">
+      <h2>Project 2</h2>
+      <p>Description of your second project.</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="card">
+      <h2>Project 3</h2>
+      <p>Description of your third project.</p>
+      <a href="#">View Project</a>
+    </div>
+  </section>
+
+</body>
+</html>
